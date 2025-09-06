@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOON TO BE THOMASIANS</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('ust.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #ffcc33; /* Soft yellow-orange for main text */
+      padding: 20px;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #ffcc33;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    header hr {
+      margin: 10px auto;
+      width: 60%;
+      border: 1px solid #ffcc33;
+    }
+
+    /* Subtitle */
+    h2 {
+      text-align: center;
+      font-style: italic;
+      font-size: 1.5rem;
+      margin-top: 15px;
+      color: #ffcc33;
+    }
+
+    /* Main Image */
+    .main-image {
+      display: flex;
+      justify-content: center;
+      margin: 25px 0;
+    }
+
+    .main-image img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Scrolling Banner */
+    .banner-wrapper {
+      width: 100%;
+      overflow: hidden;
+      margin: 25px 0;
+      border-top: 2px solid #ffcc33;
+      border-bottom: 2px solid #ffcc33;
+      padding: 12px 0;
+      position: relative;
+    }
+
+    .banner-track {
+      display: flex;
+      gap: 15px;
+      animation: scroll-left 15s linear infinite;
+    }
+
+    .banner-track img {
+      width: 350px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 2px solid #ffcc33;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    @keyframes scroll-left {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* Shared Section Styling */
+    .advocacy-section, .tips-section {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
+    }
+
+    .advocacy-section h3, .tips-section h3 {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      color: #ffcc33;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    ul, ol {
+      padding-left: 0;
+      line-height: 1.8;
+    }
+
+    ul li, ol li {
+      margin-bottom: 18px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 12px;
+      border-radius: 10px;
+      border-left: 4px solid #ffcc33;
+      list-style-position: inside;
+    }
+
+    strong {
+      color: #ffcc33;
+    }
+
+    /* YouTube Link Button */
+    .video-link {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    .video-link a {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #ffcc33;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    .video-link a:hover {
+      background-color: #ffaa00;
+      color: #fff;
+      box-shadow: 0 5px 20px rgba(255, 204, 51, 0.7);
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .banner-track img {
+        width: 250px;
+        height: 100px;
+      }
+
+      .advocacy-section, .tips-section {
+        padding: 15px;
+      }
+
+      .video-link a {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+
+      .banner-track img {
+        width: 200px;
+        height: 80px;
+      }
+
+      .main-image img {
+        width: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>SOON TO BE THOMASIANS</h1>
+    <hr />
+    <h2><i>GROUP 6</i></h2>
+  </header>
+
+  <!-- Main Image -->
+  <div class="main-image">
+    <img src="uste.png" alt="Main Image" />
+  </div>
+
+  <!-- Scrolling Banner -->
+  <div class="banner-wrapper">
+    <div class="banner-track">
+      <img src="gouste.png" alt="Banner 1" />
+      <img src="ustn.png" alt="Banner 2" />
+      <img src="USTEN.png" alt="Banner 3" />
+      <img src="takers.png" alt="Banner 4" />
+    </div>
+  </div>
+
+  <!-- UST Advocacy Section -->
+  <div class="advocacy-section">
+    <h3>Empowering Future Thomasians: Our Advocacy for UST Dreamers</h3>
+    <ul>
+      <li><strong>1. Promote Academic Excellence:</strong><br />
+        Prepare smart, not just hard! Master English, Math, Science, and Abstract Reasoning step by step to ace the UST Entrance Test (USTET).
+      </li>
+      <li><strong>2. Provide Access to Resources:</strong><br />
+        We aim to share review guides, mock exams, and tips to make your preparation effective and stress-free.
+      </li>
+      <li><strong>3. Encourage Mental & Emotional Readiness:</strong><br />
+        Passing USTET isn’t just about knowledge — it’s about confidence, discipline, and a positive mindset.
+      </li>
+      <li><strong>4. Build a Supportive Community:</strong><br />
+        Together, we succeed! Join peer study groups and connect with mentors to make your UST dream a reality.
+      </li>
+    </ul>
+  </div>
+
+  <!-- Tips Section -->
+  <div class="tips-section">
+    <h3>Tips to Become a Future UST Student</h3>
+    <ol>
+      <li><strong>Start Preparing Early:</strong> Begin reviewing USTET topics months before the exam to avoid cramming and reduce stress.</li>
+      <li><strong>Master the Core Subjects:</strong> Focus on English, Math, Science, and Abstract Reasoning — these are key areas tested by UST.</li>
+      <li><strong>Practice with Mock Exams:</strong> Take sample tests regularly to build confidence and improve time management skills.</li>
+      <li><strong>Build Healthy Study Habits:</strong> Study consistently, create a schedule, and balance study time with proper rest.</li>
+      <li><strong>Stay Mentally & Emotionally Prepared:</strong> A positive mindset is just as important as academic knowledge when facing USTET.</li>
+      <li><strong>Believe in Yourself:</strong> Confidence can make a huge difference. Trust your abilities and stay motivated throughout your journey.</li>
+    </ol>
+  </div>
+
+  <!-- YouTube Video Link -->
+  <div class="video-link">
+    <a href="https://youtu.be/bCF0XI0Hz54?si=I5SGQB1mn-s7un2g" target="_blank">
+      🎥 Watch More Tips for UST Students
+    </a>
+  </div>
+</body>
+</html>
